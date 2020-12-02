@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed ".header" to "header" after removing the header class from index.html and replacing it with the <header> tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* changed div to nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
