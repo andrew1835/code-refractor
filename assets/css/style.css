@@ -61,6 +61,12 @@ header nav ul li {
     margin-left: 20px;
 }
 
+/* Moved the float instructions for the image into CSS and kept formatting the same */
+#seoPicture {
+    float: left;
+    margin-right: 25px;
+}
+
 /* moved the content under .content so that it's actually right beneath it in CSS */
 .search-engine-optimization {
     margin-bottom: 20px;
