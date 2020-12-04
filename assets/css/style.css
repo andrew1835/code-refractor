@@ -1,11 +1,16 @@
-/* deleted "*" and put box-sizing: border-box in .benefits */ 
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 /* good */
 body {
     background-color: #d9dcd6;
     
 }
 
+/* Sets styling for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,25 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets styling for "Hori...n" specifically */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* sets style for "seo" specifically */
+.header .seo {
     color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* changed div to nav */
+/* changed div to nav. This sets the style for the links in the nav bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,18 +38,35 @@ p {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
 
-.header nav ul li {
+/* commented out the below code because it didn't do anything */
+/* .header ul {
+    list-style-type: none;
+} */
+
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
 
 
+/* sets the font color of the buttons in the nav bar */
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* commented out the below code because it didn't do anything */
+/* header p {
+    font-size: 16px;
+} */
+
+
+
+
 /* reordered the below sections so that they are in the order they appear on the web page */
 
+/* shows the main image on the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,14 +76,21 @@ p {
     background-position: center;
 }
 
+/* Sets the styling for the main section of the page  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* moved the content under .content so that it's actually right beneath it in CSS */
-#search-engine-optimization {
+/* created this block of code to consolidate the 3 seperate h2 blocks that had the same code */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Combined the stylings for all the below into one consolidated block of code */
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,16 +99,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
 /* Moved the float instructions for the image into CSS and kept formatting the same */
 #seoPicture {
     float: left;
     margin-right: 25px;
+    
 }
 
 /* changed the below into id references instead of class references */
@@ -94,19 +111,7 @@ p {
     max-height: 200px;
 }
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 #ormPicture {
     float: right;
@@ -118,19 +123,7 @@ p {
     max-height: 200px;
 }
 
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 #smmPicture {
     float: left;
@@ -151,7 +144,6 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    box-sizing: border-box;
     clear: both;
     float: right;
     width: 20%;
@@ -217,7 +209,7 @@ p {
     text-align: center;
 }
 
-/* made it correctly reference h4 */
+/* made it correctly reference */
 .footer h4 {
     font-size: 20px;
 }
