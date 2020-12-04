@@ -1,11 +1,14 @@
+/* helps set style for page. When taken out, aside info is pushed down */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* good */
 body {
     background-color: #d9dcd6;
+    
 }
 
 .header {
@@ -76,8 +79,10 @@ body {
     margin-right: 25px;
 }
 
-
-
+/* changed the below into id references instead of class references */
+#search-engine-optimization img {
+    max-height: 200px;
+}
 
 #online-reputation-management {
     margin-bottom: 20px;
@@ -91,6 +96,11 @@ body {
 #ormPicture {
     float: right;
     margin-left: 25px;
+}
+
+/* changed the below into id references instead of class references */
+#online-reputation-management img {
+    max-height: 200px;
 }
 
 #social-media-marketing {
@@ -107,17 +117,14 @@ body {
     margin-right: 25px;
 }
 
+
 /* changed the below into id references instead of class references */
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
 #social-media-marketing img {
     max-height: 200px;
+
+
+
+    
 }
 
 .search-engine-optimization h2 {
@@ -147,15 +154,6 @@ p {
 }
 
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 
 .benefits {
