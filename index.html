@@ -14,12 +14,13 @@
 
 
 
-    <!-- changed <div class="header"> to <header> -->
-    <header>
+    <!-- changed <div class="header"> to <header class "header"> -->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- changed <div> to <nav> -->
         <nav>
             <ul>
+                <!-- made the links work -->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -42,7 +43,7 @@
     <main class="content">
 
         <!-- changed from div id to section id for all the below -->
-        <section class="search-engine-optimization">
+        <section id="search-engine-optimization">
             <!-- added an alt description, removed the back slash before the closing tag, moved the float command into CSS for all the images -->
             <img id="seoPicture" src="./assets/images/search-engine-optimization.jpg" alt="SEO stock picture">
             <h2>Search Engine Optimization</h2>
@@ -51,7 +52,7 @@
             </p>
         </section>
         
-        <section class="online-reputation-management">
+        <section id="online-reputation-management">
             <img id="ormPicture" src="./assets/images/online-reputation-management.jpg"  alt="Online Repuation Management stock picture">
             <h2>Online Reputation Management</h2>
             <p>
@@ -59,7 +60,7 @@
             </p>
         </section>
 
-        <section class="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" class="social-media-marketing">
             <img id= "smmPicture" src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing stock picture">
             <h2>Social Media Marketing</h2>
             <p>
@@ -103,7 +104,8 @@
 
     <!-- changed div to footer -->
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <!-- changed h2 to h4 -->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
