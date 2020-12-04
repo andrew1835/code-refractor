@@ -1,9 +1,4 @@
-/* helps set style for page. When taken out, aside info is pushed down */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+/* deleted "*" and put box-sizing: border-box in .benefits */ 
 
 /* good */
 body {
@@ -25,6 +20,15 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* changed div to nav */
@@ -73,6 +77,12 @@ body {
     color: #ffffff;
 }
 
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 /* Moved the float instructions for the image into CSS and kept formatting the same */
 #seoPicture {
     float: left;
@@ -91,6 +101,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 #ormPicture {
@@ -112,6 +127,11 @@ body {
     color: #ffffff;
 }
 
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 #smmPicture {
     float: left;
     margin-right: 25px;
@@ -127,38 +147,11 @@ body {
     
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-
-
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
+    box-sizing: border-box;
     clear: both;
     float: right;
     width: 20%;
@@ -224,6 +217,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* made it correctly reference h4 */
+.footer h4 {
     font-size: 20px;
 }
