@@ -99,48 +99,52 @@ header a {
     color: #ffffff;
 }
 
-/* Moved the float instructions for the image into CSS and kept formatting the same */
-#seoPicture {
+/* Moved the float instructions for the image into CSS and kept formatting the same. Also, put the height instructions here and commented out the img block of code. Finally, consolidated seoPicture and smmPicture since they have the same commands */
+#seoPicture, #smmPicture {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
     
 }
 
-/* changed the below into id references instead of class references */
-#search-engine-optimization img {
+/* commented out the below code because it was consolidated into seoPicture */
+/* #search-engine-optimization img {
     max-height: 200px;
-}
+} */
 
 
 
 #ormPicture {
     float: right;
     margin-left: 25px;
-}
-
-/* changed the below into id references instead of class references */
-#online-reputation-management img {
     max-height: 200px;
 }
 
 
+/* commented out the below code because it was consolidated into ormPicture
+#online-reputation-management img {
+    max-height: 200px;
+} */
 
-#smmPicture {
+
+/* commented out the below code because it was consolidated into seoPicture */
+/* #smmPicture {
     float: left;
     margin-right: 25px;
 }
 
 
-/* changed the below into id references instead of class references */
+commented out the below code because it was consolidated into seoPicture
 #social-media-marketing img {
     max-height: 200px;
 
 
 
     
-}
+} */
 
 
+/* sets the styling for the benefits column */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -152,12 +156,14 @@ header a {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* consolidated the below three classes into one block of code since all the same rules applied */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/* commented out the bottom two blocks of code after consolidating them into the above block */
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -165,14 +171,17 @@ header a {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+/* made it .benefits instead of .benefit lead. Also, consolidated the below three classes into one block of code since all the same rules applied */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+
+/* commented out the bottom two blocks of code after consolidating them into the above block */
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -180,7 +189,7 @@ header a {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
 .benefit-lead img {
     display: block;
