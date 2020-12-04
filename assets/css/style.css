@@ -191,7 +191,15 @@ commented out the below code because it was consolidated into seoPicture
     text-align: center;
 } */
 
-.benefit-lead img {
+
+/* created the below block to consolidate the tree commented out blocks of code below it. Makes it so the images are formatted the same way in the aside */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -207,10 +215,10 @@ commented out the below code because it was consolidated into seoPicture
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 
-
+/* sets the style for the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -218,7 +226,7 @@ commented out the below code because it was consolidated into seoPicture
     text-align: center;
 }
 
-/* made it correctly reference */
+/* made it correctly reference h4 instead of h2 */
 .footer h4 {
     font-size: 20px;
 }
