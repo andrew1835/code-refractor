@@ -21,3 +21,6 @@ Note: You can find the exact changes detailed within the HTML and CSS documents 
 Link to website: https://andrew1835.github.io/code-refractor/
 
 ## Screenshot 
+
+Okay, I don't know how to link a screenshot for now. Did some trial and error, and the closest I got to it was taking a screenshot, putting it in my assets folder, and trying to link to that through the following: "![image]./assets/screenshot.png"
+I will meet with a tutor to figure out how to properly link a screenshot in a README file
