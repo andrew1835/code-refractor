@@ -17,5 +17,7 @@ Finally, since I haven't looked at my peers' work on this assignment, I don't kn
 
 Note: You can find the exact changes detailed within the HTML and CSS documents themselves.  
 
+## Link
 Link to website: https://andrew1835.github.io/code-refractor/
 
+## Screenshot 
