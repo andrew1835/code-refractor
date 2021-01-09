@@ -22,5 +22,8 @@ Link to website: https://andrew1835.github.io/code-refractor/
 
 ## Screenshot 
 
-Okay, I don't know how to link a screenshot for now. Did some trial and error, and the closest I got to it was taking a screenshot, putting it in my assets folder, and trying to link to that through the following: "![image]./assets/screenshot.png"
-I will meet with a tutor to figure out how to properly link a screenshot in a README file
+Below is a screenshot of what the website looks like upon load
+<img src = "assets/images/Screenshot.png" alt = "Screenshot of website">
+<br><hr>
+Below is a screenshot of a sample of the code that I refracted to make more accessible
+<img src = "assets/images/Refractor.jpg" alt = "Refracted code sample">
